@@ -1,5 +1,7 @@
 #include "Polynomial.h"
 #include "Birthday.h"
+#include "Rectangle.h"
+#include "Smarthome.h"
 
 void swap(int& x, int& y)
 {
@@ -22,6 +24,7 @@ int main() {
 	c.display("C = A + B = ");
 */
 	// 71p 객체 배열
+	/*
 	Student eei[10];
 	strcpy_s(eei[2].name, "HyungGi Jo");
 	eei[2].bDay.month = 2;
@@ -34,6 +37,17 @@ int main() {
 	swap(a, b);
 	printf("swap 호출 후, a = %d, b = %d", a, b);
 	return 0;
+	*/
 
+	/*Rectangle r1(4, 5);
+	printf("rectangle 1 Area : %lf\n", r1.getArea());              //printf 사용
+	std::cout << "rectangle 1 Area : " << r1.getArea() << std::endl;               //iostream의 cout 사용
+	std::cout << "Is square?" << r1.isSquare() << std::endl;
+	*/
+
+	SmartHome myHome("홍길동:", 23, 40, true);
+	myHome.printStatus();
+	myHome.setHumidity(60);
+	myHome.setSecurity(false);
 
 }
