@@ -2,6 +2,8 @@
 #include "Birthday.h"
 #include "Rectangle.h"
 #include "Smarthome.h"
+#include "Pet.h"
+#include "Music.h"
 
 void swap(int& x, int& y)
 {
@@ -45,9 +47,24 @@ int main() {
 	std::cout << "Is square?" << r1.isSquare() << std::endl;
 	*/
 
+	/*
 	SmartHome myHome("È«±æµ¿:", 23, 40, true);
 	myHome.printStatus();
 	myHome.setHumidity(60);
 	myHome.setSecurity(false);
+	myHome.printStatus();
+	*/
 
+	/*
+	Pet myPet("Lucky", 5, "dog");
+	cout << "My pet name is" << myPet.getName() << endl;
+	cout << "My pet age is" << myPet.getAge() << endl;
+	Puppy myPuppy("Kong", 4, "dog", "Puddle");
+	cout << "My pet age is" << myPet.() << endl;
+	cout << "My pet age is" << myPet.getAge() << endl;
+	*/
+
+	//Music streaming service »ý¼º
+	MusicStreamingService myService("MyMusic");
+	myService.addMusic("OMG", "")
 }

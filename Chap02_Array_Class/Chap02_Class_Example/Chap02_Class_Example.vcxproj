@@ -131,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Birthday.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Pet.h" />
     <ClInclude Include="Polynomial.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Smarthome.h" />
